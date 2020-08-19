@@ -1,0 +1,9 @@
+def mult(x):
+...     a = x
+...     b = (x * 10) + 1
+...     mul = range(a,b,a)
+...     for i in mul:
+...             print(format(i))
+...
+>>> x = int(input("enter number"))
+>>> mult(x)
